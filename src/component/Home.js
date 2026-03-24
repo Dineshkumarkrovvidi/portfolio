@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* Image */}
         <img
-          src="./images/wall - Copy.jpg"
+          src="./images/wallCopy.jpg"
           alt="profile"
           className="w-64 h-64 md:w-72 md:h-72 object-cover rounded-2xl relative z-10 border-4 border-cyan-400 shadow-xl"
         />
