@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <section  style={{backgroundImage:'url("image.png")',backgroundSize:"cover"}}className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-10 gap-10">
+    <section  style={{backgroundImage:'url("./images/image.png")',backgroundSize:"cover"}}className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-10 gap-10">
 
       {/* LEFT */}
       <div className="max-w-xl">
@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* Image */}
         <img
-          src="wall - Copy.jpg"
+          src="./images/wall - Copy.jpg"
           alt="profile"
           className="w-64 h-64 md:w-72 md:h-72 object-cover rounded-2xl relative z-10 border-4 border-cyan-400 shadow-xl"
         />
